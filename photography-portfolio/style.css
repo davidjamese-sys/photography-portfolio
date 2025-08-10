@@ -1,9 +1,9 @@
 body {
     font-family: "Montserrat", sans-serif;
     margin: 0;
-    background: #f4f4f4;
+    background: #0f0f0f;
     color: #333;
-    text-align: center;
+    text-align: left;
 }
 
 header {
@@ -36,7 +36,7 @@ header h1 {
 }
 
 footer {
-    background: #222;
+    background: #0f0f0f;
     color: white;
     padding: 10px;
 }
