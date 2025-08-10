@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>extras/title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>This is a hidden page</h1>
+    </header>
+    <main>
+        <p>Welcome! You found the page that isn't in the navigation.</p>
+    </main>
+    <footer>
+        <p>© 2025 My Photography</p>
+    </footer>
+</body>
+</html>
