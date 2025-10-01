@@ -44,3 +44,59 @@ footer {
     color: #000;
     padding: 10px;
 }
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px auto;
+    max-width: 1000px;
+    padding: 20px;
+    flex-wrap: wrap; /* makes it responsive */
+}
+
+.pricing-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.pricing-card h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.price {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pricing-card ul li {
+    margin: 8px 0;
+    color: #555;
+}
+
+.featured {
+    border: 2px solid #333;
+    background: #fdfcfb;
+}
