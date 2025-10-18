@@ -101,7 +101,13 @@ footer {
     background: #f9f1f1;
 }
 #booking-button-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
+  text-align: left;       /* left-aligns the button */
+  margin: 2rem 0 2rem 2rem; /* top/right/bottom/left spacing */
+  max-width: 300px;       /* optional: keeps the button area narrow */
+}
+
+#booking-button-container .U26fgb { /* Google’s button class */
+  font-size: 1rem;        /* make it easy to read */
+  padding: 0.6rem 1.2rem; /* comfortable padding */
+  border-radius: 6px;     /* subtle rounding */
 }
